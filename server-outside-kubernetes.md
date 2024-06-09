@@ -172,3 +172,9 @@ spec:
     port: 80
     targetPort: 80
 ```
+
+## Envoy
+
+```
+consul connect envoy -sidecar-for=app3
+```
